@@ -1,6 +1,6 @@
-export http_proxy='http://212543354:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
-export https_proxy='http://212543354:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
-export ftp_proxy='http:// 212543354:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
+export http_proxy='http://212321852:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
+export https_proxy='http://212321852:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
+export ftp_proxy='http:// 212321852:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
 export no_proxy='3.125.182.0/25,*.local,*.ge.com'
 
 /etc/apt/apt.conf.d
