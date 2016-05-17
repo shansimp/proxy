@@ -1,7 +1,8 @@
+Add to /etc/environment
 export http_proxy='http://212321852:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
 export https_proxy='http://212321852:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
 export ftp_proxy='http:// 212321852:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80'
 export no_proxy='3.125.182.0/25,*.local,*.ge.com'
 
 /etc/apt/apt.conf.d
-Acquire::http::Proxy "http://username:password@proxy_server_address:port"
+Acquire::http::Proxy "http://212321852:<passwd>@PITC-Zscaler-Americas-Alpharetta3PR.proxy.corporate.ge.com:80"
